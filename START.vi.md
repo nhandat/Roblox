@@ -1,5 +1,9 @@
 # Hướng dẫn chạy nhanh (Tiếng Việt)
 
+## Nó có phải web không?
+Có, đây là code frontend web được dump từ Roblox.  
+Nhưng nó **không phải** một project website hoàn chỉnh (thiếu backend/private runtime/build nội bộ), nên không thể chạy như roblox.com gốc.
+
 ## 1) Chạy project
 Trong thư mục repo, chạy:
 

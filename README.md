@@ -3,6 +3,12 @@ This contains all the files that I dumped from the source-map files on roblox.co
 
 👉 Vietnamese quick start: see `START.vi.md`.
 
+## Is this a website project?
+Partly. This repo contains dumped **web frontend source files** from Roblox, but it is **not** a complete standalone website project.
+
+- ✅ It is web-related code (browser/client-side modules).
+- ❌ It does not include the full private backend/runtime/build system needed to run roblox.com as-is.
+
 ## Last dump (M/D/Y)
 04/02/2026
 
