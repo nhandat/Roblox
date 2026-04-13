@@ -41,3 +41,28 @@ Choose one of these depending on your goal:
 3. **Rebuild-like workflow (advanced)**
    - Build your own bundler config and aliases for missing `@rbx/*` packages.
    - This requires recreating private Roblox runtime dependencies manually.
+
+## Quick start (copy/paste)
+If your goal is to explore this repo right now:
+
+```bash
+# 1) Clone and open
+git clone https://github.com/nhandat/Roblox.git
+cd Roblox
+
+# 2) Confirm why npm start fails (expected)
+npm start
+
+# 3) Inspect entry files and modules instead
+node -e "console.log('Open entry.js, entry.ts, src/, modules/')"
+rg "xsrfToken|addExternal|Roblox" entry.js entry.ts src modules
+```
+
+If your goal is to execute code, create a separate playground project:
+
+```bash
+mkdir roblox-dump-playground && cd roblox-dump-playground
+npm init -y
+npm i typescript tsx
+# then copy one target file from this dump and mock @rbx/* imports
+```
