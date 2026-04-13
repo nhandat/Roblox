@@ -66,8 +66,10 @@ npm start
 ```
 
 You should see:
-- `✅ Playground started`
-- `window.Roblox ready: true`
+- `✅ Web playground started`
+- `Open UI: http://localhost:4173`
+
+Then open `http://localhost:4173` in your browser to see the local UI.
 
 If your goal is to execute more code, use the local playground modules:
 

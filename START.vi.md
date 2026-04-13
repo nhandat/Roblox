@@ -13,9 +13,14 @@ npm start
 
 Nếu thấy output như sau là chạy thành công:
 
-- `✅ Playground started`
-- `Token: mock-xsrf-token`
-- `window.Roblox ready: true`
+- `✅ Web playground started`
+- `Open UI: http://localhost:4173`
+
+Sau đó mở trình duyệt vào:
+
+`http://localhost:4173`
+
+Bạn sẽ thấy giao diện web local (trang status).
 
 ## 2) Ý nghĩa
 Project này là **source-map dump** nên không có runtime nội bộ của Roblox.
