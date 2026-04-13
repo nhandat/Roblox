@@ -3,6 +3,7 @@ This contains all the files that I dumped from the source-map files on roblox.co
 
 👉 Vietnamese quick start: see `START.vi.md`.
 👉 Persona liveness flow notes: see `docs/persona-liveness-flow.vi.md`.
+👉 Tool implementation guide (VI): see `docs/tool-guide.vi.md`.
 
 ## Is this a website project?
 Partly. This repo contains dumped **web frontend source files** from Roblox, but it is **not** a complete standalone website project.
