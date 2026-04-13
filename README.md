@@ -2,6 +2,7 @@
 This contains all the files that I dumped from the source-map files on roblox.com which contains the same as the Webpack in the browser.
 
 👉 Vietnamese quick start: see `START.vi.md`.
+👉 Persona liveness flow notes: see `docs/persona-liveness-flow.vi.md`.
 
 ## Is this a website project?
 Partly. This repo contains dumped **web frontend source files** from Roblox, but it is **not** a complete standalone website project.
