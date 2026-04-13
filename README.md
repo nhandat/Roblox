@@ -43,26 +43,33 @@ Choose one of these depending on your goal:
    - This requires recreating private Roblox runtime dependencies manually.
 
 ## Quick start (copy/paste)
-If your goal is to explore this repo right now:
+If your goal is to run this repo with a local mock runtime:
 
 ```bash
 # 1) Clone and open
 git clone https://github.com/nhandat/Roblox.git
 cd Roblox
 
-# 2) Confirm why npm start fails (expected)
-npm start
+# 2) Install dependencies
+# no install needed for the mock runtime
 
-# 3) Inspect entry files and modules instead
-node -e "console.log('Open entry.js, entry.ts, src/, modules/')"
-rg "xsrfToken|addExternal|Roblox" entry.js entry.ts src modules
+# 3) Start local mock runtime
+npm start
 ```
 
-If your goal is to execute code, create a separate playground project:
+You should see:
+- `✅ Playground started`
+- `window.Roblox ready: true`
+
+If your goal is to execute more code, use the local playground modules:
 
 ```bash
-mkdir roblox-dump-playground && cd roblox-dump-playground
-npm init -y
-npm i typescript tsx
-# then copy one target file from this dump and mock @rbx/* imports
+# edit these files and restart
+playground/entry.local.js
+playground/xsrfTokenHeaderInjector.local.js
+playground/xsrfTokenFormInjector.local.js
+mocks/externals.js
+mocks/xsrfToken.js
 ```
+
+This startup path is intentionally mocked to make the dump runnable for local analysis.
